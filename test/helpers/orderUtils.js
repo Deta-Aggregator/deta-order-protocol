@@ -1,4 +1,4 @@
-const { constants, trim0x } = require('@1inch/solidity-utils');
+const { constants, trim0x } = require('@deta/solidity-utils');
 const { assert } = require('chai');
 const { ethers } = require('ethers');
 const { keccak256 } = require('ethers/lib/utils');
@@ -21,7 +21,7 @@ const ABIOrder = {
     components: Order,
 };
 
-const name = '1inch Limit Order Protocol';
+const name = 'deta Limit Order Protocol';
 const version = '4';
 
 const _NO_PARTIAL_FILLS_FLAG = 255n;

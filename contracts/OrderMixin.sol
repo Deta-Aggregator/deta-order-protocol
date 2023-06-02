@@ -5,9 +5,9 @@ pragma solidity 0.8.19;
 import "@openzeppelin/contracts/utils/math/Math.sol";
 import { EIP712 } from "@openzeppelin/contracts/utils/cryptography/EIP712.sol";
 import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
-import "@1inch/solidity-utils/contracts/interfaces/IWETH.sol";
-import "@1inch/solidity-utils/contracts/libraries/SafeERC20.sol";
-import "@1inch/solidity-utils/contracts/OnlyWethReceiver.sol";
+import "@deta/solidity-utils/contracts/interfaces/IWETH.sol";
+import "@deta/solidity-utils/contracts/libraries/SafeERC20.sol";
+import "@deta/solidity-utils/contracts/OnlyWethReceiver.sol";
 
 import "./helpers/PredicateHelper.sol";
 import "./helpers/SeriesEpochManager.sol";

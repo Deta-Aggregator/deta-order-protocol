@@ -1,7 +1,7 @@
 const { ethers } = require('hardhat');
 const { parseUnits } = require('ethers/lib/utils.js');
 const { loadFixture } = require('@nomicfoundation/hardhat-network-helpers');
-const { expect, trim0x } = require('@1inch/solidity-utils');
+const { expect, trim0x } = require('@deta/solidity-utils');
 const { fillWithMakingAmount, buildMakerTraits, buildOrder, signOrder, compactSignature } = require('./helpers/orderUtils');
 const { cutLastArg, ether } = require('./helpers/utils');
 const { deploySwapTokens, deployRangeAmountCalculator } = require('./helpers/fixtures');

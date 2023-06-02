@@ -1,5 +1,5 @@
 const { loadFixture } = require('@nomicfoundation/hardhat-network-helpers');
-const { expect } = require('@1inch/solidity-utils');
+const { expect } = require('@deta/solidity-utils');
 const { ABIOrder, fillWithMakingAmount, buildMakerTraitsRFQ, buildOrderRFQ } = require('./helpers/orderUtils');
 const { ethers } = require('hardhat');
 const { ether } = require('./helpers/utils');

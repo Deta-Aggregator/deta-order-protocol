@@ -1,7 +1,7 @@
 # LimitOrderProtocol
 
 
-1inch Limit Order Protocol v2
+deta Limit Order Protocol v2
 
 
 

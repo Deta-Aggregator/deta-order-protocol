@@ -3,8 +3,8 @@
 pragma solidity 0.8.19;
 
 import { EIP712 } from "@openzeppelin/contracts/utils/cryptography/EIP712.sol";
-import "@1inch/solidity-utils/contracts/libraries/SafeERC20.sol";
-import "@1inch/solidity-utils/contracts/OnlyWethReceiver.sol";
+import "@deta/solidity-utils/contracts/libraries/SafeERC20.sol";
+import "@deta/solidity-utils/contracts/OnlyWethReceiver.sol";
 
 import "../interfaces/IPostInteraction.sol";
 import "../OrderLib.sol";

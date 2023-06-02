@@ -1,10 +1,10 @@
 {
-  "name": "@1inch/limit-order-protocol-contract",
+  "name": "@deta/limit-order-protocol-contract",
   "version": "4.0.0-prerelease-7",
-  "description": "1inch Limit Order Protocol",
+  "description": "deta Limit Order Protocol",
   "repository": {
     "type": "git",
-    "url": "git@github.com:1inch/limit-order-protocol.git"
+    "url": "git@github.com:deta/limit-order-protocol.git"
   },
   "license": "MIT",
   "files": [
@@ -16,7 +16,7 @@
     "test/helpers"
   ],
   "dependencies": {
-    "@1inch/solidity-utils": "2.2.27",
+    "@deta/solidity-utils": "2.2.27",
     "@chainlink/contracts": "0.6.1",
     "@openzeppelin/contracts": "4.8.3"
   },

@@ -1,6 +1,6 @@
 const hre = require('hardhat');
 const { ethers, tracer } = hre;
-const { expect, time, constants, getPermit2, permit2Contract } = require('@1inch/solidity-utils');
+const { expect, time, constants, getPermit2, permit2Contract } = require('@deta/solidity-utils');
 const { fillWithMakingAmount, unwrapWethTaker, skipMakerPermit, buildMakerTraits, buildOrder, signOrder, compactSignature, buildOrderData } = require('./helpers/orderUtils');
 const { getPermit, withTarget } = require('./helpers/eip712');
 const { joinStaticCalls, ether, findTrace, countAllItems } = require('./helpers/utils');

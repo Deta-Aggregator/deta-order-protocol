@@ -1,4 +1,4 @@
-const { constants } = require('@1inch/solidity-utils');
+const { constants } = require('@deta/solidity-utils');
 const { ethers } = require('hardhat');
 
 async function deploySwapTokens () {
@@ -8,7 +8,7 @@ async function deploySwapTokens () {
     const WrappedTokenMock = await ethers.getContractFactory('WrappedTokenMock');
     const weth = await WrappedTokenMock.deploy('WETH', 'WETH');
     await weth.deployed();
-    const inch = await TokenMock.deploy('1INCH', '1INCH');
+    const inch = await TokenMock.deploy('deta', 'deta');
     await inch.deployed();
     const LimitOrderProtocol = await ethers.getContractFactory('LimitOrderProtocol');
     const swap = await LimitOrderProtocol.deploy(weth.address);

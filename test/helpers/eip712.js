@@ -1,4 +1,4 @@
-const { TypedDataVersion } = require('@1inch/solidity-utils');
+const { TypedDataVersion } = require('@deta/solidity-utils');
 const { TypedDataUtils } = require('@metamask/eth-sig-util');
 const { cutSelector, trim0x } = require('./utils');
 const { ethers } = require('hardhat');

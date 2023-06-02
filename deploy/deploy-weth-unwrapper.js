@@ -1,6 +1,6 @@
 const hre = require('hardhat');
 const { getChainId } = hre;
-const { constants } = require('@1inch/solidity-utils');
+const { constants } = require('@deta/solidity-utils');
 
 const WETH = {
     1: '0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2', // Mainnet

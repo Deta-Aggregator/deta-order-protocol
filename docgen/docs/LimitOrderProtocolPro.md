@@ -1,7 +1,7 @@
 # LimitOrderProtocolPro
 
 
-1inch Pro Limit Order Protocol
+deta Pro Limit Order Protocol
 
 
 

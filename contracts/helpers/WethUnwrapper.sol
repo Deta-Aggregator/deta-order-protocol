@@ -2,9 +2,9 @@
 
 pragma solidity 0.8.19;
 
-import "@1inch/solidity-utils/contracts/OnlyWethReceiver.sol";
-import "@1inch/solidity-utils/contracts/interfaces/IWETH.sol";
-import "@1inch/solidity-utils/contracts/libraries/SafeERC20.sol";
+import "@deta/solidity-utils/contracts/OnlyWethReceiver.sol";
+import "@deta/solidity-utils/contracts/interfaces/IWETH.sol";
+import "@deta/solidity-utils/contracts/libraries/SafeERC20.sol";
 
 import "../interfaces/IPostInteraction.sol";
 import "../libraries/Errors.sol";

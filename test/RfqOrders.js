@@ -1,6 +1,6 @@
 const hre = require('hardhat');
 const { ethers } = hre;
-const { expect, time, profileEVM, trackReceivedTokenAndTx, getPermit2, permit2Contract } = require('@1inch/solidity-utils');
+const { expect, time, profileEVM, trackReceivedTokenAndTx, getPermit2, permit2Contract } = require('@deta/solidity-utils');
 const { loadFixture } = require('@nomicfoundation/hardhat-network-helpers');
 const { buildOrderRFQ, signOrder, compactSignature, fillWithMakingAmount, unwrapWethTaker, buildMakerTraits, buildOrderData } = require('./helpers/orderUtils');
 const { getPermit } = require('./helpers/eip712');

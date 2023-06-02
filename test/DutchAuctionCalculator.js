@@ -1,4 +1,4 @@
-const { expect, trim0x, time, assertRoughlyEqualValues } = require('@1inch/solidity-utils');
+const { expect, trim0x, time, assertRoughlyEqualValues } = require('@deta/solidity-utils');
 const { loadFixture } = require('@nomicfoundation/hardhat-network-helpers');
 const { cutLastArg, ether } = require('./helpers/utils');
 const { deploySwapTokens } = require('./helpers/fixtures');

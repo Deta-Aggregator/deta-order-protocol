@@ -6,7 +6,7 @@ import { EIP712 } from "@openzeppelin/contracts/utils/cryptography/EIP712.sol";
 import "./OrderMixin.sol";
 
 /**
- * @title ##1inch Limit Order Protocol v3
+ * @title ##deta Limit Order Protocol v3
  * @notice Limit order protocol provides two different order types
  * - Regular Limit Order
  * - RFQ Order
@@ -27,7 +27,7 @@ import "./OrderMixin.sol";
  * See [OrderMixin](OrderMixin.md) for more details.
  */
 contract LimitOrderProtocol is
-    EIP712("1inch Limit Order Protocol", "4"),
+    EIP712("deta Limit Order Protocol", "4"),
     OrderMixin
 {
     // solhint-disable-next-line no-empty-blocks

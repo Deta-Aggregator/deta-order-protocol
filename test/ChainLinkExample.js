@@ -1,4 +1,4 @@
-const { expect, trim0x } = require('@1inch/solidity-utils');
+const { expect, trim0x } = require('@deta/solidity-utils');
 const { loadFixture } = require('@nomicfoundation/hardhat-network-helpers');
 const { fillWithMakingAmount, compactSignature, signOrder, buildOrder } = require('./helpers/orderUtils');
 const { cutLastArg, ether, setn } = require('./helpers/utils');
@@ -80,7 +80,7 @@ describe('ChainLinkExample', function () {
             .to.changeTokenBalances(weth, [addr, addr1], [ether('1'), ether('-1')]);
     });
 
-    it('dai -> 1inch stop loss order', async function () {
+    it('dai -> deta stop loss order', async function () {
         const { dai, inch, swap, chainId, chainlink, daiOracle, inchOracle } = await loadFixture(deployContractsAndInit);
 
         const makingAmount = ether('100');
@@ -109,7 +109,7 @@ describe('ChainLinkExample', function () {
             .to.changeTokenBalances(inch, [addr, addr1], [makingAmount, makingAmount.mul(-1)]);
     });
 
-    it('dai -> 1inch stop loss order predicate is invalid', async function () {
+    it('dai -> deta stop loss order predicate is invalid', async function () {
         const { dai, inch, swap, chainId, chainlink, daiOracle, inchOracle } = await loadFixture(deployContractsAndInit);
 
         const makingAmount = ether('100');

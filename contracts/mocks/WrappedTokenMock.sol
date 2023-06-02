@@ -4,7 +4,7 @@ pragma solidity 0.8.19;
 
 import "@openzeppelin/contracts/access/Ownable.sol";
 import "@openzeppelin/contracts/token/ERC20/extensions/draft-ERC20Permit.sol";
-import "@1inch/solidity-utils/contracts/interfaces/IWETH.sol";
+import "@deta/solidity-utils/contracts/interfaces/IWETH.sol";
 
 /// @title Generic token for testing purposes with deposit/withdraw capabilities
 contract WrappedTokenMock is ERC20Permit, Ownable, IWETH {
